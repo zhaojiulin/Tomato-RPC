@@ -1,4 +1,4 @@
-package registry;
+package com.tomato.rpc.registry;
 
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -12,7 +12,7 @@ public class LocalRegistry {
     public static ConcurrentHashMap<String, Class<?>> interfaceMap = new ConcurrentHashMap<>();
 
     public static void register(String interfaceName, Class<?> interfaceClass) {
-        register(interfaceName, interfaceClass, "1.0");
+        register(interfaceName, interfaceClass, "1.0.0");
     }
     public static void  register(String interfaceName, Class<?> interfaceClass, String version) {
         interfaceMap.put(interfaceName + version, interfaceClass);

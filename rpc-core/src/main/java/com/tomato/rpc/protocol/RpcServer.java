@@ -1,4 +1,4 @@
-package com.tomato.protocol;
+package com.tomato.rpc.protocol;
 
 import org.apache.catalina.LifecycleException;
 import org.apache.catalina.Server;

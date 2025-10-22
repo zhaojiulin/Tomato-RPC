@@ -1,9 +1,9 @@
-package com.tomato.protocol;
+package com.tomato.rpc.protocol;
 
-import com.tomato.common.Invocation;
+import com.tomato.rpc.model.Invocation;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import registry.LocalRegistry;
+import com.tomato.rpc.registry.LocalRegistry;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -14,7 +14,7 @@ import java.lang.reflect.Method;
 /**
  * @author zhaojiulin
  * @version 1.0
- * @description: TODO
+ * @description: 请求处理-》方法调用
  * @date 2025/10/22 17:39
  */
 public class RpcServerHandle {

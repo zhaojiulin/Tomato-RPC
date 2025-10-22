@@ -1,6 +1,6 @@
-package com.tomato.protocol;
+package com.tomato.rpc.protocol;
 
-import com.tomato.common.Invocation;
+import com.tomato.rpc.model.Invocation;
 
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -9,7 +9,7 @@ import java.net.URL;
 /**
  * @author zhaojiulin
  * @version 1.0
- * @description: TODO
+ * @description: 服务请求
  * @date 2025/10/22 18:11
  */
 public class RpcClient {

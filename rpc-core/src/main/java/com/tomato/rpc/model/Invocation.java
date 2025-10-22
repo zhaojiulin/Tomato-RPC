@@ -1,11 +1,11 @@
-package com.tomato.common;
+package com.tomato.rpc.model;
 
 import java.io.Serializable;
 
 /**
  * @author zhaojiulin
  * @version 1.0
- * @description: TODO
+ * @description: 统一请求对象
  * @date 2025/10/22 17:52
  */
 public class Invocation implements Serializable {

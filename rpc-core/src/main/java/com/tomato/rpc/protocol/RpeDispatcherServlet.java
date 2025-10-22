@@ -1,4 +1,4 @@
-package com.tomato.protocol;
+package com.tomato.rpc.protocol;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * @author zhaojiulin
  * @version 1.0
- * @description: TODO
+ * @description: 请求处理
  * @date 2025/10/22 17:48
  */
 public class RpeDispatcherServlet extends HttpServlet {
